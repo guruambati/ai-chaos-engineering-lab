@@ -1,0 +1,13 @@
+{
+  "scenarios": {
+    "full":    ["model_crash","timeout","tool_failure","context_overflow","malformed_prompt","vector_db_unavailable","rate_limit","network_flap"],
+    "crash":   ["model_crash","timeout"],
+    "network": ["network_flap","vector_db_unavailable"],
+    "prompts": ["context_overflow","malformed_prompt"]
+  },
+  "default_config": {
+    "repetitions": 3,
+    "recovery_ms": 500,
+    "timeout_ms": 1000
+  }
+}

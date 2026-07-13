@@ -1,0 +1,16 @@
+{
+  "scenario": "AI System - full chaos",
+  "total_events": 24,
+  "overall_recovery_rate": 95.8,
+  "overall_grade": "A",
+  "scores": [
+    {"fault_type": "model_crash",         "total": 3, "recovered": 3, "rate": 100.0, "mean_recovery_ms": 502.1, "grade": "A"},
+    {"fault_type": "timeout",             "total": 3, "recovered": 3, "rate": 100.0, "mean_recovery_ms": 1002.3,"grade": "A"},
+    {"fault_type": "tool_failure",        "total": 3, "recovered": 3, "rate": 100.0, "mean_recovery_ms": 101.4, "grade": "A"},
+    {"fault_type": "context_overflow",    "total": 3, "recovered": 3, "rate": 100.0, "mean_recovery_ms": 51.2,  "grade": "A"},
+    {"fault_type": "malformed_prompt",    "total": 3, "recovered": 2, "rate": 66.7,  "mean_recovery_ms": 21.0,  "grade": "C"},
+    {"fault_type": "vector_db_unavailable","total": 3,"recovered": 3, "rate": 100.0, "mean_recovery_ms": 302.8, "grade": "A"},
+    {"fault_type": "rate_limit",          "total": 3, "recovered": 3, "rate": 100.0, "mean_recovery_ms": 205.5, "grade": "A"},
+    {"fault_type": "network_flap",        "total": 3, "recovered": 3, "rate": 100.0, "mean_recovery_ms": 812.3, "grade": "A"}
+  ]
+}

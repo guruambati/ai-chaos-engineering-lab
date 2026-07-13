@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.DS_Store
+
+# Runtime-generated outputs (see example_output/ for committed samples)
+results.json
+baseline.json
+current.json
+perf_history.json
+dashboard.html
+test_dashboard.html
+regression_report.json
+summary.md
+coverage.xml
+.coverage
+htmlcov/
+
